@@ -1,4 +1,12 @@
 body{
     margin: 0;
     font: optional;
+    background-color: #ccc;
+}
+
+.hero{
+    background-image: url(../imagens/bg-3.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
 }
