@@ -100,3 +100,12 @@ a.btn:hover
     background-color: #8a8786;
     color: white;
 }
+
+.rodape{
+    color: white;
+    background-color: #6b6c68;
+    text-align: center;
+    padding: 30px;
+    text-shadow: 2px,2px,2px,black;
+    letter-spacing: 2px;
+}
