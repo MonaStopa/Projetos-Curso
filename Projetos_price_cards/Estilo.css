@@ -42,7 +42,11 @@ body{
     border-radius: 6px;
 }
 
-a.menu_nav_active{
+.menu_nav_off:hover{
+    background-color: #cce30088;
+}
+
+a.menu_nav_active {
     background-color: #cbe300;
     color: #0c1014;
 }
