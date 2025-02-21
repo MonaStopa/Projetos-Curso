@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Viaoda+Libre&display=swap');
+
+:root {
+    --large-default-padding: 6.5em;
+    --medium-default-padding: 4em;
+}
+
+body, html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    font-family: "Roboto", serif;
+    color: #555;
+}
+
+#principal {
+    width: 64em;
+    margin: auto ;
+}
+
+h1, h2{
+    font-family: "Viaoda Libre", serif;
+}
+
+.menu{
+    background-color: #162028;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_logo{
+    margin: .5em 0 .5em 3em;
+    color: white;
+}
+
+.menu_opcoes li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 1em 0 0;
+    padding: 1em;
+}
+
+.menu_opcoes a {
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8em;
+    letter-spacing: .15em;
+    transition: color .3s linear;
+}
+
+.menu_opcoes a:hover {
+    color: white;
+}
+
+.section1{
+    text-align: center;
+    padding: var(--medium-default-padding) var(--large-default-padding);
+    margin: auto;
+}
+
+.section1_titulo{
+    font-size: 2.5em;
+}
+
+.section1_conteudo{
+    line-height: 1.8em;
+}
+
+.section1_list{
+    display: flex;
+    gap: 1.6em;
+    width: 860px;
+    margin: 3em auto ;
+}
+
+.section1_list_perfil_name{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.section2{
+    padding: var(--medium-default-padding) var(--large-default-padding);
+    background-color: #003d52;
+    background-image: url(imagens/bg_detalhe.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 5em;
+}
+
+.section2_titulo{
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+
+.section2_conteudo{
+    padding: 0 18em 0 0;
+    line-height: 1.8em;
+}
+
+.rodape{
+    margin: 0;
+    background-color: #0b171f;
+    color: #6f8597;
+    text-align: center;
+    padding: .8em 0;
+}
