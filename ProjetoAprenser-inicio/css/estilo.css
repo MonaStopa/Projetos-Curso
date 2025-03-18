@@ -17,6 +17,14 @@ h1{
     font-family: "Sora", sans-serif;
 }
 
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3.2rem;
+}
+
 nav a{
     color: inherit;
 }
@@ -32,11 +40,11 @@ nav a{
     text-decoration: none;
     padding: 1.6rem 4.5rem;
     display: inline-block;
+    color: inherit;
 }
 
-.btn a{
-    text-decoration:none;
-    color: #000000;
+.whapperContainer{
+    padding-top: 1px;
 }
 
 .whapperContainer-dark{
@@ -60,6 +68,16 @@ nav a{
 .container{
     max-width: 127.6rem;
     margin: auto;
+}
+
+.section_titulo{
+    padding: 7rem 0;
+    text-align: center;
+    margin: 0;
+}
+
+.section_btn{
+    margin: 7rem 0;
 }
 
 .header{
@@ -94,4 +112,40 @@ nav a{
 
 .heroBanner_content_titulo{
     margin-bottom: 4zrem;
+}
+
+.cursos{
+    text-align: center;
+}
+
+.cursos_cantainer{
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+}
+
+.cursos_cantainer_cards{
+    flex: 1;
+}
+
+.cursos_cantainer_cards img{
+    display: block;
+    width: 100%;
+}
+
+.cursos_cantainer_cards h3{
+    font-size: 2.4rem;
+}
+
+.cursos_cantainer_cards p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.cursos_cantainer_cards_content{
+    padding: 1rem 1.25rem;
+    background-color: white;
+    border: 1px solid #d7d4d4;
+    border-radius: 0 0 8px 8px;
+    border-top: transparent;
 }
