@@ -12,6 +12,11 @@ p,a{
     font-size: 1.6rem;
 }
 
+h1{
+    font-size: 4.8rem;
+    font-family: "Sora", sans-serif;
+}
+
 nav a{
     color: inherit;
 }
@@ -20,13 +25,27 @@ nav a{
     text-transform: uppercase;
 }
 
+.btn{
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1.6rem 4.5rem;
+    display: inline-block;
+}
+
+.btn a{
+    text-decoration:none;
+    color: #000000;
+}
+
 .whapperContainer-dark{
     background-color: #2a2a2a;
     color: #fafafa;
 }
 
 .whapperContainer-hero{
-
+    background-image: linear-gradient(transparent, #f3f332);
 }
 
 .whapperContainer-light{
@@ -66,3 +85,13 @@ nav a{
     background-color: black;
 }
 
+.heroBanner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+.heroBanner_content_titulo{
+    margin-bottom: 4zrem;
+}
