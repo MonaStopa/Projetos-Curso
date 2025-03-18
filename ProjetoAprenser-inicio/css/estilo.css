@@ -12,6 +12,10 @@ p,a{
     font-size: 1.6rem;
 }
 
+nav a{
+    color: inherit;
+}
+
 .upper{
     text-transform: uppercase;
 }
@@ -39,3 +43,22 @@ p,a{
     margin: auto;
 }
 
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    padding: 2rem 0;
+}
+
+.header_menu a{
+    padding: .75em 1.15em;
+    border: solid 1px;
+    text-decoration:none;
+}
+
+.header_menu ul{
+    display: flex;
+    gap: .6em;
+    list-style-type: none;
+}
