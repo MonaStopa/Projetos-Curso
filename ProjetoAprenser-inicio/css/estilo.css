@@ -62,3 +62,7 @@ nav a{
     gap: .6em;
     list-style-type: none;
 }
+.header_menu a:hover{
+    background-color: black;
+}
+
