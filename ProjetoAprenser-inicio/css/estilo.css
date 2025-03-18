@@ -18,6 +18,7 @@ p,a{
 
 .whapperContainer-dark{
     background-color: #2a2a2a;
+    color: #fafafa;
 }
 
 .whapperContainer-hero{
@@ -30,4 +31,11 @@ p,a{
 
 .whapperContainer-dark2{
     background-color: #003454;
+    color: #fafafa;
 }
+
+.container{
+    max-width: 127.6rem;
+    margin: auto;
+}
+
