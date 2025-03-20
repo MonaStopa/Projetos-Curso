@@ -61,7 +61,7 @@ nav a{
 }
 
 .whapperContainer-dark2{
-    background-color: #003454;
+    background-color: #04336c;
     color: #fafafa;
 }
 
@@ -70,7 +70,7 @@ nav a{
     margin: auto;
 }
 
-.section_titulo{
+.section_title {
     padding: 7rem 0;
     text-align: center;
     margin: 0;
@@ -148,4 +148,39 @@ nav a{
     border: 1px solid #d7d4d4;
     border-radius: 0 0 8px 8px;
     border-top: transparent;
+}
+
+.escola{
+display: flex;
+gap: 9rem;
+text-align: left;
+padding-top: 6rem;
+}
+
+.escola__content{
+    line-height: 1.5;
+    text-align: left;
+}
+
+.escola_titulo{
+    font-size: 3.2rem;
+    margin-top: 2rem;
+}
+
+.escola p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.contatos_address{
+    text-align: right;
+    font: normal 400 1.8rem "Inter", sans-serif;
+    padding: 3rem 0;
+}
+
+.footer{
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 4.5rem;
+    color: inherit;
 }
