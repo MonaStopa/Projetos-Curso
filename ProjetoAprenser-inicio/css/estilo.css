@@ -65,6 +65,15 @@ nav a{
     color: #fafafa;
 }
 
+.whapperContainer-fixed{
+    position: sticky;
+    top: 0;
+}
+
+.whapperContainer-padded{
+    padding-top: 12rem;
+}
+
 .container{
     max-width: 127.6rem;
     margin: auto;
